@@ -12,8 +12,8 @@ export default function PhotoGallery({ gallery }) {
   return (
     <section id="gallery" className="py-6 sm:py-8 px-4 max-w-lg mx-auto text-center">
       {/* Title */}
-      <h2 className="font-serif text-xl sm:text-2xl font-bold tracking-wide text-[#6B0F23] mb-6">
-        معرض الصور
+      <h2 className="font-serif text-xl sm:text-2xl font-bold tracking-[0.2em] text-[#6B0F23] uppercase mb-6">
+        OUR PHOTOS
       </h2>
 
       {/* Photos Grid (Centers 1 photo or shows 2 side-by-side) */}
