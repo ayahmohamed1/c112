@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Amiri", "Playfair Display", Georgia, serif;
+  --font-script: "Great Vibes", cursive;
+  --font-sans: "Cairo", "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-cormorant: "Cormorant Garamond", Georgia, serif;
+
+  --color-cream-50: #FCFBF7;
+  --color-cream-100: #F7F4EC;
+  --color-cream-200: #EFE9DC;
+  --color-cream-300: #E2D9C5;
+
+  --color-navy-950: #060D17;
+  --color-navy-900: #0B192C;
+  --color-navy-800: #142845;
+  --color-navy-700: #1E3E62;
+  --color-navy-600: #2B527E;
+
+  --color-gold-300: #E0CA9E;
+  --color-gold-400: #D4B679;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #A8823B;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F4EC;
+  color: #0B192C;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility Font Classes */
+.font-serif {
+  font-family: var(--font-serif);
+}
+.font-script {
+  font-family: var(--font-script);
+}
+.font-sans {
+  font-family: var(--font-sans);
+}
+.font-cormorant {
+  font-family: var(--font-cormorant);
+}
+
+/* Custom scrollbar for an opulent aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F4EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A8823B;
+}
+
+/* Selection */
+::selection {
+  background: #0B192C;
+  color: #F7F4EC;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
