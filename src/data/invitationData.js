@@ -39,15 +39,15 @@ export const invitationConfig = {
     highlightDay: 20,
   },
 
-  // Venue details (نادي النخيل)
+  // Venue details (Palm Club - جسر السويس)
   venue: {
-    name: "نادي النخيل",
-    nameEn: "Al Nakheel Club",
+    name: "Palm Club",
+    nameEn: "Palm Club",
     subtitle: "قاعة الاحتفالات",
-    address: "نادي النخيل السياحي، المحلة الكبرى",
-    city: "المحلة الكبرى",
-    googleMapsLink: "https://maps.app.goo.gl/3TJRfn5Zwg64X9YWA?g_st=aw",
-    mapEmbedUrl: "https://maps.google.com/maps?q=30.99375,31.15625&hl=ar&z=15&output=embed",
+    address: "أمام محطة مترو الجراج، تقاطع شارع 6 أكتوبر، جسر السويس",
+    city: "القاهرة",
+    googleMapsLink: "https://maps.app.goo.gl/A92UHXgS9bN6JDdd9",
+    mapEmbedUrl: "https://maps.google.com/maps?cid=4250933672947934352&hl=ar&output=embed",
   },
 
   // Photos (Groom first, Bride second)
